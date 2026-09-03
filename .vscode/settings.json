@@ -1,0 +1,14 @@
+{
+  "editor.formatOnSave": true,
+  "cucumber.features": [
+    "cypress/e2e/**/*.feature"
+  ],
+  "cucumber.glue": [
+    "cypress/e2e/**/*.js"
+  ],
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/cypress/screenshots": true,
+    "**/cypress/videos": true
+  }
+}

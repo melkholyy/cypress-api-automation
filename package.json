@@ -1,0 +1,21 @@
+{
+  "name": "cypress-cucumber-framework",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cypress + Cucumber BDD automation framework",
+  "scripts": {
+    "cy:open:headed": "cypress open --browser chrome",
+    "cy:open": "cypress open --browser chrome",
+    "cy:run": "cypress run",
+    "test": "cypress run",
+    "test:headed": "cypress run --headed",
+    "test:chrome": "cypress run --browser chrome",
+    "test:edge": "cypress run --browser edge"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^24.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.8",
+    "cypress": "^15.2.0",
+    "typescript": "^5.9.2"
+  }
+}
